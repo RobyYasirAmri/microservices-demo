@@ -8,7 +8,7 @@ metadata:
 spec:
   selector:
     matchLabels:
-	    app: carts-db
+    	app: carts-db
   replicas: 1
   template:
     metadata:
