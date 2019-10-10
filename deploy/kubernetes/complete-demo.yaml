@@ -7,7 +7,7 @@ metadata:
   namespace: sock-shop
 spec:
   matchLabels:
-  	k8s-app: carts-db
+  	name: carts-db
   replicas: 1
   template:
     metadata:
